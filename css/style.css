@@ -652,36 +652,63 @@ footer {
     margin-top: 16px;
 }
 .comp a img {
-    position: relative;
+
     width: 40px;
     height: 40px;
     margin: 10px;
 }
-.comp a img:before {
+.comp a {
+    position: relative;
+}
+.comp a:before {
     display: block;
     position: absolute;
     content: '';
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     z-index: 99999;
 
 }
-.comp a img.one:before {
+.comp a.one:before {
     background-image: url("/img/f2.png");
+    height: 17px;
+    width: 8px;
+    top: -24px;
+    left: 25px;
 }
-.comp a img.two:before {
+.comp a.two:before {
+    top: -19px;
+    left: 20px;
+    width: 19px;
+    height: 11px;
     background-image: url("/img/vk2.png");
 }
-.comp a img.three:before {
+.comp a.three:before {
+    width: 23px;
     background-image: url("/img/g2.png");
+    height: 15px;
+    top: -23px;
+    left: 20px;
 }
-.comp a img.four:before {
+.comp a.four:before {
+    top: -23px;
     background-image: url("/img/i2.png");
+    width: 17px;
+    height: 17px;
+    left: 22px;
 }
-.comp a img.five:before {
+.comp a.five:before {
+    width: 17px;
+    height: 14px;
+    top: -21px;
+    left: 21px;
     background-image: url("/img/t2.png");
 }
-.comp a img.six:before {
+.comp a.six:before {
+    top: -21px;
+    left: 21px;
+    width: 17px;
+    height: 13px;
     background-image: url("/img/y2.png");
 }
 

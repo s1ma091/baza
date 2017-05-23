@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b1a5b84-93a3-4107-920b-a2f88da4e4ee" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/-----533.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/-----626.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/-----627.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/-----650.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/zamok.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="743" column="39" lean-forward="false" selection-start-line="743" selection-start-column="39" selection-end-line="743" selection-end-column="39" />
+              <caret line="743" column="27" lean-forward="false" selection-start-line="743" selection-start-column="27" selection-end-line="743" selection-end-column="27" />
               <folding>
                 <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#3;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -61,8 +54,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="684" column="33" lean-forward="false" selection-start-line="684" selection-start-column="33" selection-end-line="684" selection-end-column="33" />
+            <state relative-caret-position="379">
+              <caret line="700" column="16" lean-forward="false" selection-start-line="700" selection-start-column="16" selection-end-line="700" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -210,7 +203,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../admin/htdocs" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
@@ -317,12 +310,12 @@
       <workItem from="1495355473897" duration="4855000" />
       <workItem from="1495434875819" duration="42752000" />
       <workItem from="1495522138891" duration="17869000" />
-      <workItem from="1495543921664" duration="1798000" />
+      <workItem from="1495543921664" duration="4349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86380000" />
+    <option name="totallyTimeSpent" value="88931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -690,7 +683,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="743" column="39" lean-forward="false" selection-start-line="743" selection-start-column="39" selection-end-line="743" selection-end-column="39" />
+          <caret line="743" column="27" lean-forward="false" selection-start-line="743" selection-start-column="27" selection-end-line="743" selection-end-column="27" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#nav#3;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -712,8 +705,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="684" column="33" lean-forward="false" selection-start-line="684" selection-start-column="33" selection-end-line="684" selection-end-column="33" />
+        <state relative-caret-position="379">
+          <caret line="700" column="16" lean-forward="false" selection-start-line="700" selection-start-column="16" selection-end-line="700" selection-end-column="16" />
           <folding />
         </state>
       </provider>
