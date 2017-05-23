@@ -4,5 +4,10 @@ $(document).ready(function () {
         // infinite: true,
 
     });
+    $(".same-slide").slick({
+        // dots: false,
+        // infinite: true,
+
+    });
 
 })

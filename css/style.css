@@ -115,7 +115,7 @@ img.enter {
 }
 .similar {
     margin: 25px 0 80px 110px;
-    padding: 50px;
+    padding: 30px;
     border: 1px solid #ccc;
     display: inline-block;
     max-width: 245px;
@@ -246,6 +246,7 @@ del {
     width: 50px;
     height: 50px;
     top:0;
+    z-index: 9999999;
 }
 .slick-prev {
     background: #000000;
@@ -259,6 +260,7 @@ del {
 
 }
 .slick-next:hover, .slick-prev:hover {
+    z-index: 999999;
     opacity: 1;
     background: #000000;
 }
@@ -274,6 +276,7 @@ del {
     margin-left: 10px;
     text-align: center;
     color: white;
+    cursor: pointer;
 }
 .finish {
     font-size: 85%;
@@ -400,7 +403,24 @@ height: 70px;
 .left-footer div ul{
     display: inline-block;
 }
-
+.tab-frame {
+    width: 62%;
+    display: inline-block;
+}
+.right-container {
+    float: right;
+}
+.right-container:after {
+    content: '';
+    display: block;
+    clear: right;
+}
+.foot-number {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+    font-size: 140%;
+}
 div.tab-frame input + label {
     font-weight: bold;
     font-size: 110%;
@@ -409,6 +429,11 @@ div.tab-frame input + label {
 }
 div.tab-frame input:hover + label:hover {
     color: red;
+}
+.footer-menu {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
 }
 .description-text {
    padding: 10px 0;
@@ -562,16 +587,106 @@ div.tab-frame input:nth-of-type(5):checked ~ .tab:nth-of-type(5)
     left: -16px;
     padding: 5px;
 }
+.tab-frame:after {
+    content: '';
+    display: block;
+    clear: both;
+}
 
 footer {
     margin-top: 30px;
-    background: #808080;
+    background: #4e4d4d;
     color: #ffffff;
     display: flex;
+    padding: 10px;
 }
 .left-footer {
     width: 75%;
 }
 .right-footer {
     width: 25%;
+    padding: 10px;
+    background: #333030;
+}
+
+.footer-menu ul li a {
+    color: #a9a9a9 !important;
+}
+
+.same-slide .slick-next {
+    height: 127px;
+    opacity: .7;
+    background: #000000;
+    top: 167px;
+    right: 25px;
+    z-index: 9999;
+}
+.same-slide .slick-prev {
+    background: #000000;
+    opacity: .7;
+    width: 50px;
+    height: 129px;
+    top: 39px;
+    right: 25px !important;
+    z-index: 9999;
+    left: inherit;
+}
+.internet {
+    text-align: center;
+    margin-top: 30px;
+}
+.same-slide .slick-next:hover,.same-slide .slick-prev:hover {
+    opacity: 1;
+    background: #000000;
+}
+
+.comp {
+    text-align: center;
+}
+.d3 {
+    text-align: center;
+  }
+.d3 img {
+    width: 40%;
+    height: 45%;
+    margin-top: 16px;
+}
+.comp a img {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+.comp a img:before {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    z-index: 99999;
+
+}
+.comp a img.one:before {
+    background-image: url("/img/f2.png");
+}
+.comp a img.two:before {
+    background-image: url("/img/vk2.png");
+}
+.comp a img.three:before {
+    background-image: url("/img/g2.png");
+}
+.comp a img.four:before {
+    background-image: url("/img/i2.png");
+}
+.comp a img.five:before {
+    background-image: url("/img/t2.png");
+}
+.comp a img.six:before {
+    background-image: url("/img/y2.png");
+}
+
+
+.devel {
+    margin-right: 20px;
+    text-align: right;
 }
